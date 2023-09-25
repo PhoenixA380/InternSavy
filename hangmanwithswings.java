@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
 
-public class hangmanwithswings {
+public class withswings {
     private final JFrame frame;
     private final JPanel keyboardPanel;
     private final JLabel wordLabel;
@@ -116,7 +116,7 @@ public class hangmanwithswings {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new hangmanwithswings();
+                new withswings();
             }
         });
     }
