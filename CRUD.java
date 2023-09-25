@@ -1,7 +1,7 @@
 package CRUD;
 import java.util.*;
 
-public class crud {
+public class CRUD {
     private static final List<String> items = new ArrayList<>();
     private static final Scanner sc = new Scanner(System.in);
 
