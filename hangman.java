@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class hangman {
 
-    private static final String[] WORDS = {"apple", "banana", "cherry", "grape", "lemon", "orange", "strawberry"};
+    private static final String[] WORDS = {"penguin", "elephant", "giraffe", "lion", "tiger", "kangaroo", "cheetah"};
     private static final int MAX_TRIES = 6;
 
     public static void main(String[] args) {
@@ -88,7 +88,6 @@ public class hangman {
                 "  +---+\n  |   |\n  O   |\n  |   |\n      |\n      |\n=========",
                 "  +---+\n  |   |\n  O   |\n /|   |\n      |\n      |\n=========",
                 "  +---+\n  |   |\n  O   |\n /|\\  |\n      |\n      |\n=========",
-                "  +---+\n  |   |\n  O   |\n /|\\  |\n /    |\n      |\n=========",
                 "  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n========="
         };
 
