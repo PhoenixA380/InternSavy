@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.text.DecimalFormat;
 import java.util.*;
 
-public class currconv {
+public class CurrencyConverter {
     private final JTextField amountField;
     private final JComboBox<String> fromCurrencyComboBox;
     private final JComboBox<String> toCurrencyComboBox;
@@ -100,7 +100,7 @@ public class currconv {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new currconv();
+                new CurrencyConverter();
             }
         });
     }
