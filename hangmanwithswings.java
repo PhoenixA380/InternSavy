@@ -9,13 +9,13 @@ public class withswings {
     private final JFrame frame;
     private final JPanel keyboardPanel;
     private final JLabel wordLabel;
-    private final String[] words = {"apple", "banana", "cherry", "grape", "lemon", "orange", "strawberry", "pineapple"};
+    private final String[] words = {"penguin", "elephant", "giraffe", "lion", "tiger", "kangaroo", "cheetah", "rhinoceros"};
     private String wordToGuess;
     private char[] guessedWord;
     private int remainingTries;
 
     public withswings() {
-        frame = new JFrame("Hangman Game (Guess the fruit)");
+        frame = new JFrame("Hangman Game (Guess the animal)");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 300);
         frame.setLayout(new BorderLayout());
